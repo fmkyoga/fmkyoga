@@ -1,0 +1,232 @@
+html, body {
+		width:100%;	
+    margin: 0;	
+    padding: 0;	
+background-image: url("uefablack.jpg");
+		  background-size: cover;
+		background-position: center;
+		  background-repeat: no-repeat;
+	background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size:16px;	
+	min-height:100vh;
+	 position:absolute;
+	}
+
+body {
+	position:relative;
+	width:100%;	      
+	min-height:100vh;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	}
+
+
+
+
+.ham {
+	
+ 	margin-left:90px;
+  /* always keep ham on top of everything */
+  z-index: 1000;	
+  margin-top: 50px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+    /* show the menu image */
+  background-image: url("../whitemenu.png");
+	background-repeat:no-repeat;
+    background-size:100% 100%;	
+	position: fixed;
+	padding-bottom:0px;
+	padding-right:0px;
+	border-radius: 10px;	
+	}
+
+.ham:focus{
+    outline: none;
+}
+
+.showClose {
+  background-image: url("../whitecross.png");
+	background-repeat:no-repeat;
+    background-size:cover;	
+	width: 70px;
+  height: 70px;
+	margin-top: 50px; 
+	margin-left:90px;
+	margin-right:0px;
+	margin-bottom:0px;
+	z-index:500;	
+	position: fixed;
+	border-radius: 25px;
+}
+
+
+.navbar {
+	position:fixed;
+   margin-top: 12rem;
+  background: #1a1a1a;
+	margin-left:400px;
+  width: 650px;	
+  height: auto;
+	z-index:200;		
+	margin-bottom:0px;		
+
+  /* hide the menu above the screen by default */
+  transform: translateX(20%);
+  /* transition adds a little animation when sliding in and out the menu */
+  transition: transform 0.2s ease;
+}
+
+.showNav {
+  /* show the menu */
+  transform: translateX(-100%);
+}
+
+.navbar ul {		
+margin-bottom:0px;
+		margin-top:0px;
+	padding-top:0px;
+	margin-left:0px;
+}
+
+.navbar li {
+	font-size:4em;
+	text-decoration:none;
+	padding-bottom:10px;
+	padding-top:10px;
+	list-style-type: none;
+	text-align:left;
+	margin-left:0px;
+}
+
+
+.navbar li a:hover {
+	color:#b3ccff;
+}
+
+.navbar li a {
+	text-decoration:none;
+	color:  white; 
+	font-family: lato, "open sans condensed", sans-serif;
+	
+}
+
+
+
+#menu {
+	
+	margin-top:0px;	
+display: flex;
+width:100%;	
+	margin-left:0px;
+	margin-right:0px;
+	background-color:#1a1a1a;
+justify-content:space-between;
+	color:#1a1a1a;
+flex-wrap:nowrap;
+flex: 1 1 auto;
+	height:180px;		
+	z-index:1;
+	margin-bottom:-55px;
+	border-bottom: 2px solid grey;	
+}
+
+
+.box {
+display:flex;	
+}
+
+.box1 {	
+	width:20%;
+}
+
+.box2  {
+	width: 80%;	
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:0px;
+	text-align:left;
+	}
+
+
+	
+
+.europeshead {
+	color:white;
+	font-size:4rem;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+	
+.efootlog {	
+	float:left;
+	margin-left:25px;
+}
+
+h2 {
+	  font-size: 50px;  	
+	color:white;	
+	}
+
+
+
+.lighttxt{ color:#cce0ff;}
+
+.darktxt { color:black;}
+
+
+.footer-container {		
+	width: 100%;
+	text-align: center;		
+	font-size:1.5em;	
+	position:absolute;
+	bottom:0;
+	     }
+		
+.prefoot {	
+		height: 20px;	
+		width: 100%;	
+      background-color: #989898;
+		margin-bottom:0px;
+	margin-top:0px;
+     }	
+
+.footer {
+	padding-top: 10px;	   	
+	height: 200px;		
+      background-color: #000033;	  
+	color:#f2f2f2;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.padder {
+	padding-bottom:220px;
+	position:relative;
+}
+	
+
+.epslhead {
+	padding-top:10px;
+	padding-left:30px;
+	height:110px;
+	width:900px;
+}
+
+/* Below code to scale website for wider desktop screens */		
+
+
+@media(min-width: 1000px)  {
+	
+	.navbar li {
+		font-size:2vw;
+	}
+	
+	.navbar {
+		width:450px;
+	}
