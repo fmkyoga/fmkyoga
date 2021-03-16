@@ -37,7 +37,7 @@ body {
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("../whitemenu.png");
+  background-image: url("whitemenu.png");
 	background-repeat:no-repeat;
     background-size:100% 100%;	
 	position: fixed;
@@ -51,7 +51,7 @@ body {
 }
 
 .showClose {
-  background-image: url("../whitecross.png");
+  background-image: url("whitecross.png");
 	background-repeat:no-repeat;
     background-size:cover;	
 	width: 70px;
