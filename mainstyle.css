@@ -137,6 +137,7 @@ display:flex;
 
 .box1 {	
 	width:30%;
+	
 }
 
 .box2  {
@@ -162,8 +163,9 @@ display:flex;
 }
 	
 .yoglog {	
-	height:100px;
+	height:140px;
 	width:auto;
+	margin:auto auto;
 }
 
 h2 {
