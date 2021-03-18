@@ -125,8 +125,7 @@ flex-wrap:nowrap;
 flex: 1 1 auto;
 	height:180px;		
 	z-index:1;
-	margin-bottom:-55px;
-	border-bottom: 2px solid grey;	
+	margin-bottom:-55px;	
 	position:fixed;
 }
 
