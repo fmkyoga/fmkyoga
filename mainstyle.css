@@ -173,7 +173,11 @@ h2 {
 	color:white;	
 	}
 
-
+.first {
+	font-weight:bold;
+	font-family:serif;
+	
+}
 
 .lighttxt{ color:#cce0ff;}
 
