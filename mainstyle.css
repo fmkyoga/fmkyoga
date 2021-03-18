@@ -115,6 +115,7 @@ flex: 1 1 auto;
 	z-index:1;
 	margin-bottom:-55px;	
 	position:fixed;
+	top:0;
 }
 
 
