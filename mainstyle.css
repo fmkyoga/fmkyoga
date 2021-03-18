@@ -1,4 +1,4 @@
-html, body {
+ehtml, body {
 		width:100%;	
     margin: 0;	
     padding: 0;	
@@ -32,7 +32,7 @@ body {
   border: none;
   cursor: pointer;
     /* show the menu image */
-  background-image: url("whitemenu.png");
+  background-image: url("menu3bar.png");
 	background-repeat:no-repeat;
     background-size:100% 100%;	
 	padding-bottom:0px;
@@ -45,7 +45,7 @@ body {
 }
 
 .showClose {
-  background-image: url("whitecross.png");
+  background-image: url("crosswhite.png");
 	background-repeat:no-repeat;
     background-size:cover;	
 	width: 70px;
