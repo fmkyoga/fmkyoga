@@ -136,18 +136,19 @@ display:flex;
 }
 
 .box1 {	
-	width:40%;
+	width:30%;
 }
 
 .box2  {
-	width: 60%;	
+	width: 50%;	
 	margin-top:auto;
 	margin-bottom:auto;
-	margin-left:0px;
-	text-align:left;
+		text-align:center;
 	}
 
-
+.box3 { width:20%;
+}
+	
 	
 
 .yogatitle {
