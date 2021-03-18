@@ -2,11 +2,6 @@ html, body {
 		width:100%;	
     margin: 0;	
     padding: 0;	
-background-image: url("zenback.png");
-		  background-size: cover;
-		background-position: center;
-		  background-repeat: no-repeat;
-	background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	font-size:16px;	
