@@ -238,3 +238,12 @@ h2 {
 	.navbar {
 		width:450px;
 	}
+	)
+@media screen and (orientation: landscape) {
+  #menu   {
+    height: 100px;
+  }
+	}
+
+
+}
