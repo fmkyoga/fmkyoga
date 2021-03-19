@@ -158,9 +158,10 @@ display:flex;
 
 .yogatitle {
 	color:white;
-	font-size:3rem;
+	font-size:3.5rem;
 	margin-top:auto;
 	margin-bottom:auto;
+	font-weight:bold;
 }
 	
 .yoglog {	
